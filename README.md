@@ -1,4 +1,4 @@
-# Empirical quantile mapping enables the extrapolation of extreme values that fall outside of the base CDF range
+# An Empirical Quantile Mapping for the Extrapolation of Extreme Values 
 This project embodies an enhanced empirical Quantile Mapping (QM) technique for bias correction across various outputs of environmental models, including climate models. Specifically, this improved approach allows for the extrapolation of "new extremes" to correct biases in future projections that fall beyond the scope of existing quantile-based transfer functions. Additionally, it integrates a previously established wet-day frequency adjustment method using Monte Carlo simulations for precipitation (or other variables with zero-value tails), thus providing a more comprehensive version of empirical QM.
 
 ## Code Availability with requirements
@@ -6,12 +6,12 @@ This project embodies an enhanced empirical Quantile Mapping (QM) technique for 
 2. MATLAB (version 2017 above)
 
 ## Usage
-    1. Python (QMAPP_extrap.py)
+  1. Python (QMAPP_extrap.py)
     
     def QMAPP_extrap(Target_CDF, Base_CDF, DATA, min_bound=None):
     
-    2. MATLAB (QMAPP_extrap.m)
-    
+  2. MATLAB (QMAPP_extrap.m)
+
     function [Output]=QMAPP_extrap(Target_CDF, Base_CDF, DATA, min_bound)
 - Input:
     - Target_CDF: Empirical Cumulative Distribution Function (CDF) of benchmark data (e.g., observations from 1950-2000).
