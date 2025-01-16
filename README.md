@@ -35,4 +35,4 @@ Sample data: daily total precipitation of July for the reference period (1995-20
 ## Citation
 Details on this approach are provided in the following:
 
-Byun, K. and Hamlet, A.F. An Improved Empirical Quantile Mapping Approach for Bias Correction of Climate Model Simulations (under review) 
+Byun, K. and Hamlet, A.F (2025) An improved empirical quantile mapping approach for bias correction of extreme values in climate model simulations. Environmental Research Letters 20, 014041. https://doi.org/10.1088/1748-9326/AD9B3D 
